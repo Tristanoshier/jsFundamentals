@@ -1,0 +1,31 @@
+.silver{
+    border: 5px solid black;
+    border-radius: 5%;
+    background-color: grey;
+}
+
+.blurb{
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 10px;
+}
+
+.align{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    color: lightgreen;
+    text-align: center;
+}
+
+h3{
+    color: blue;
+}
+
+p{
+    color: red;
+}
