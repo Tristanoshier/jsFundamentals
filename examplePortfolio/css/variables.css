@@ -1,0 +1,14 @@
+:root {
+    --black: #272727;
+
+    --heading-font: 'texasTango';
+}
+
+/*
+If you want to import a font from dafont.com
+ 
+@font-face {
+    font-family: 'texasTango', sans-serif;
+    src: url(../assets/font.otf);
+}
+*/

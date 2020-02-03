@@ -34,6 +34,7 @@ let netflix = {
     season3: {},
     season4: {}
 }
+console.log(netflix.season1.seasonInfo.episodeInfo)
 
 // to access data inside of an object, or to dive into an object, we use dot notation
 
@@ -137,4 +138,33 @@ let testObj = {
 
 console.log(testObj.noSpaces);
 console.log(testObj["Spaces Here"])
+
+ 
+
+let favoriteMovie = {
+    nameOfMovie: 'Harry Potter and the Goblet of Fire',
+    runTime: 157,
+    genre: 'Fantasy',
+    characters: [{
+      name: 'Harry Potter',
+      age: 17,
+      items: [{
+        itemOne: 'wand',
+        itemTwo: 'Owl',
+      }] 
+    }, {
+      name: 'Hermione Granger',
+      age: 17,
+      items: [{
+        itemOne: 'wand',
+        itemTwo: 'cat',
+      }]
+    }]
+  }
+  console.log(
+ `movie: ${favoriteMovie.nameOfMovie}
+  runtime: ${favoriteMovie.runTime} minutes
+  characters: ${favoriteMovie.characters}
+  character name: ${favoriteMovie.characters[0].name}
+  character item: ${favoriteMovie.characters[0].items[0].itemOne}`)
 
